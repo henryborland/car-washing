@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pro Shine Car Wash</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #0a2540;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 25px;
+      background: #00b4d8;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .contact {
+      background: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #081c33;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pro Shine Car Wash</h1>
+  <p>Professional Inside & Outside Car Cleaning</p>
+  <a class="btn" href="tel:19103155812">Call Now: 910-315-5812</a>
+</header>
+
+<section class="section">
+  <h2 style="text-align:center;">Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Exterior Wash</h3>
+      <p>Hand wash, rinse, dry, and shine to keep your car looking new.</p>
+    </div>
+    <div class="card">
+      <h3>Interior Cleaning</h3>
+      <p>Vacuuming, dashboard wipe, windows, and full interior refresh.</p>
+    </div>
+    <div class="card">
+      <h3>Full Service</h3>
+      <p>Complete inside & outside cleaning for a total car makeover.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Book Your Car Wash Today</h2>
+  <p>Fast • Affordable • Professional</p>
+  <a class="btn" href="tel:19103155812">📞 910-315-5812</a>
+</section>
+
+<footer>
+  © 2026 Pro Shine Car Wash • All Rights Reserved
+</footer>
+
+</body>
+</html>
